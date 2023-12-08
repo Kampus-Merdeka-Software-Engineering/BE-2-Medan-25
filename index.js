@@ -45,7 +45,7 @@ app.use("/", mainRouter);
 
 
 // untuk nyalain server //
-app.listen(port, function(){
+app.listen(port, "0.0.0.0", function(){
     console.log(`server dah nyala di localhost:${port}`)
     // connection.authenticate()
     // .then(function(){
